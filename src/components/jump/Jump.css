@@ -1,0 +1,12 @@
+.jump-menu-wrapper {
+    background-color: #13293d;
+}
+
+.jump-menu-item {
+    display: inline-block;
+}
+
+.jump-menu-item > a {
+    font-size: 1rem;
+    margin: .25em;
+}
