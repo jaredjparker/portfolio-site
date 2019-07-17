@@ -4,6 +4,9 @@
 
 .jump-menu-item {
     display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
 }
 
 .jump-menu-item > a {
