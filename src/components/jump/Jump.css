@@ -1,6 +1,8 @@
 .jump-menu-wrapper {
     background-color: #13293d;
     height: 3.5em;
+    position: fixed;
+    width: inherit;
 }
 
 .jump-menu-item {
