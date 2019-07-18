@@ -1,15 +1,33 @@
 .jump-menu-wrapper {
     background-color: #13293d;
+    height: 3.5em;
 }
 
 .jump-menu-item {
     display: inline-block;
     display: flex;
     flex-direction: row;
-    justify-content: center; 
+    justify-content: space-around;
+    height: 100%;
 }
 
-.jump-menu-item > a {
-    font-size: 1rem;
-    margin: .25em;
+.info-top {
+    height: 100%;
+    display: table;
+}
+
+.info-top > * {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.info-top > div > a > img {
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+}
+
+.info-top > span {
+    font-size: .77rem;
+    padding: .25em 1.25em .25em .25em;
 }

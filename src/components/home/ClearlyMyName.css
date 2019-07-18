@@ -1,0 +1,7 @@
+.clearly-wrapper {
+    text-align: center;
+}
+
+.clearly-wrapper > h1 {
+    font-size: 2rem;
+}

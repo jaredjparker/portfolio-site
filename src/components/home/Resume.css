@@ -1,0 +1,16 @@
+.resume-wrapper {
+    background: url('../../assets/background.png');
+    height: 90vh;
+}
+
+.resume-wrapper > a > button {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    background-color: #1b98e0;
+    color: #e8efe7;
+    border: none;
+    font-size: 1rem;
+    padding: .75em;
+    border-radius: 3px;
+}

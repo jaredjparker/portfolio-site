@@ -1,0 +1,14 @@
+.anchorDiv {
+    display: table;
+    height: 100%;
+
+}
+
+.anchorDiv > a {
+    font-size: .87rem;
+    padding: .25em 1.25em .25em 1.25em;
+    text-decoration: none;
+    color: #ffffff;
+    display: table-cell;
+    vertical-align: middle;
+}

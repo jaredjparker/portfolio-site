@@ -1,11 +1,13 @@
-import React from 'react';
-import Jump from './components/jump/Jump';
-import './App.css';
+import React from 'react'
+import Jump from './components/jump/Jump'
+import Home from './components/home/Home'
+import './App.css'
 
 function App() {
   return (
-    <div className="app-container border">
+    <div className="app-container">
       <Jump />
+      <Home />
     </div>
   );
 }
