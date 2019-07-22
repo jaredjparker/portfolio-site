@@ -17,3 +17,11 @@ html {
 .border {
   border: 2px solid black;
 }
+
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: .85rem;
+}
