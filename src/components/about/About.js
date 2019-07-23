@@ -9,7 +9,6 @@ export default class About extends Component {
             <div id='About'>
                 <Portrait />
                 <TextAbout />
-                
             </div>
         )
     }
