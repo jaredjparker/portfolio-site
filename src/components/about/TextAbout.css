@@ -1,0 +1,13 @@
+.text-about-wrapper {
+    display: inline-block;
+    margin: 0;
+}
+
+.about-text {
+    background-color: #1b98e0;
+    height: 25em;
+    width: 35em;
+    margin: 2em;
+    padding: 2em;
+    border-radius: .5em;
+}
