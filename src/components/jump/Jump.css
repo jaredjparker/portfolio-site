@@ -3,6 +3,7 @@
     height: 3.5em;
     position: fixed;
     width: inherit;
+    z-index: 1;
 }
 
 .jump-menu-item {

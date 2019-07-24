@@ -6,7 +6,7 @@ export default class Chess extends Component {
     render() {
         return (
             <div className='chess-wrapper'>
-                <img src={chessImage} />
+                <img src={chessImage} alt='Screenshot of Chess CRA App'/>
             </div>
         )
     }
