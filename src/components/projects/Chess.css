@@ -1,4 +1,15 @@
-.chess-wrapper > img {
+.chess-wrapper > div > img {
     height: 379px;
     width: 685px;
+    border-radius: .5em;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.chess-wrapper > div {
+    display: inline-block;
+    height: auto;
+}
+
+.chess-wrapper > div > h2 {
+    font-size: 1.5rem;
 }
