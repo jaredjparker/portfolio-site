@@ -11,7 +11,7 @@ export default class Chess extends Component {
                     <img src={chessImage} alt='Screenshot of Chess CRA App'/>
                     <BtnProject linkToApp={'http://chess.logixexpert.com/#/'} projectLinkBtnTxt={'Go To The Chess App!'} />
                 </div>
-                <div>
+                <div className='chess-project-txt'>
                     <h2>Simple Chess</h2>
                     <p>Tech Used: React.js and that is it</p>
                     <ul>

@@ -6,7 +6,7 @@ import './About.css'
 export default class About extends Component {
     render() {
         return (
-            <div id='About'>
+            <div id='About' className='jmp-pnt'>
                 <Portrait />
                 <TextAbout />
             </div>
