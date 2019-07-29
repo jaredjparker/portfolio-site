@@ -11,20 +11,22 @@ export default class Jump extends Component {
         return (
             <div className='jump-menu-wrapper'>
                 <div className='jump-menu-item'>
-                    <Anchor />
+                    <Anchor jumpAnchorTagsArr={this.props.appAnchorTagsArr} />
                     <div className='info-top'>
                         <span >jared.parker7890@gmail.com</span>
                         <span >(801) 205 4267</span>
                         <div>
                             <a href='https://www.linkedin.com/in/jared-jones-parker/'>
                                 <img 
-                                src={LightLinkedIn} />
+                                src={LightLinkedIn}
+                                alt='White LinkedIn Symbol' />
                             </a>
                         </div>
                         <div>
                             <a href='https://github.com/VIISilver'>
                                 <img 
-                                src={LightGitHub} />
+                                src={LightGitHub}
+                                alt='White Github Symbol' />
                             </a>
                         </div>
                     </div>

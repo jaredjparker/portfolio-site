@@ -5,13 +5,12 @@ import './App.css'
 
 function App() {
 
-  let compIDArr = componentsArr.map(item => item.type.name)
+  let appAnchorStrings = componentsArr.map(item => item.type.name)
 
   return (
     <div className="app-container">
-      <Jump anchorTagsArr={compIDArr} />
+      <Jump appAnchorTagsArr={appAnchorStrings} />
       {componentsArr.map((item) => item)}
-      {console.log(compIDArr)}
     </div>
   );
 }

@@ -6,7 +6,7 @@ export default class Portrait extends Component {
     render() {
         return (
             <div className='portrait-wrapper'>
-                <img src={SquareProfessional} />
+                <img src={SquareProfessional} alt='Professional Headshot of Jared Parker' />
             </div>
         )
     }
