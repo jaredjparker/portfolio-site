@@ -1,3 +1,10 @@
+.chess-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
 .chess-wrapper > div > img {
     height: 379px;
     width: 685px;

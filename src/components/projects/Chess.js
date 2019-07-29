@@ -9,7 +9,6 @@ export default class Chess extends Component {
             <div className='chess-wrapper'>
                 <div>
                     <img src={chessImage} alt='Screenshot of Chess CRA App'/>
-                    <BtnProject linkToApp={'http://chess.logixexpert.com/#/'} projectLinkBtnTxt={'Go To The Chess App!'} />
                 </div>
                 <div className='chess-project-txt'>
                     <h2>Simple Chess</h2>
@@ -20,6 +19,7 @@ export default class Chess extends Component {
                         <li>Player turns are maintained.</li>
                         <li>Pieces can be replaced without the player turn switching.</li>
                     </ul>
+                    <BtnProject linkToApp={'http://chess.logixexpert.com/#/'} projectLinkBtnTxt={'Go To The Chess App!'} />
                 </div>
             </div>
         )

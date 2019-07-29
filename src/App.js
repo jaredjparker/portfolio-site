@@ -1,17 +1,17 @@
 import React from 'react'
 import Jump from './components/jump/Jump'
-import Home from './components/home/Home'
-import About from './components/about/About'
-import Projects from './components/projects/Projects'
+import componentsArr from './centralData/appComponents'
 import './App.css'
 
 function App() {
+
+  let compIDArr = componentsArr.map(item => item.type.name)
+
   return (
     <div className="app-container">
-      <Jump />
-      <Home />
-      <About />
-      <Projects />
+      <Jump anchorTagsArr={compIDArr} />
+      {componentsArr.map((item) => item)}
+      {console.log(compIDArr)}
     </div>
   );
 }
