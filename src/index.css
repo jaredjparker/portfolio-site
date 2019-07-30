@@ -18,8 +18,17 @@ html {
   border: 2px solid black;
 }
 
-.jmp-pnt {
-  padding-top: 3.47em;
+.specific-project-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.jmp-pnt::before {
+  content: "";
+  display: block;
+  height: 3.5em; /* fixed header height*/
+  margin:-3.5em 0 0; /* negative fixed header height */
 }
 
 h1 {

@@ -1,13 +1,15 @@
 import React, { Component } from 'react'
 import Chess from './Chess'
+import Health from './Health'
 import './Projects.css'
 
 export default class Projects extends Component {
     render() {
         return (
-            <div id='Projects' className='proj-comp-wrapper jmp-pnt'>
+            <div className='proj-comp-wrapper'>
                 <h1>Projects</h1>
                 <Chess />
+                <Health />
             </div>
         )
     }
