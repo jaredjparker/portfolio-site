@@ -9,8 +9,8 @@ export default class Projects extends Component {
         return (
             <div className='proj-comp-wrapper'>
                 <h1>Projects</h1>
-                <Chess />
                 <Health />
+                <Chess />
                 <Trippin />
             </div>
         )

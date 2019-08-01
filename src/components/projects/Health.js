@@ -16,7 +16,7 @@ export default class Health extends Component {
                 projectTextDescription={'Tech Used: React.js, NodeMailer, and Material-UI'}
                 projectTextListItems={this.healthListItemArr}
                 compPassLinkToApp={'http://randiwolsey.com/#/'}
-                compPassTextToApp={'Go To Randi\'s Website!'}
+                compPassTextToApp={'Check Out Randi\'s Website!'}
                 />
                 <ProjectImage 
                 imagePassByComp={healthAppImage}

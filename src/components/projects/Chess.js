@@ -19,7 +19,7 @@ export default class Chess extends Component {
                 projectTextDescription={'Tech Used: React.js and that is it'}
                 projectTextListItems={this.chessListItemArr}
                 compPassLinkToApp={'http://chess.logixexpert.com/#/'}
-                compPassTextToApp={'Go To The Chess App!'}
+                compPassTextToApp={'Go To Simple Chess!'}
                  />
             </div>
         )

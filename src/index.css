@@ -23,7 +23,7 @@ html {
   flex-direction: row;
   justify-content: space-around;
   max-width: 107em;
-  margin-top: 2.5em;
+  padding: 2.5em;
 }
 
 .jmp-pnt::before {
