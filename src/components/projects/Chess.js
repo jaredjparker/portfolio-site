@@ -13,6 +13,7 @@ export default class Chess extends Component {
             <div className='specific-project-wrapper'>
                 <ProjectImage 
                 imagePassByComp={chessImage}
+                hrefFromComp={'http://chess.logixexpert.com/#/'}
                 altTextPassByComp={'Screenshot of Chess CRA App'} />
                 <ProjectText 
                 projectTextH2={'Simple Chess'}

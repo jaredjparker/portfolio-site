@@ -2,7 +2,7 @@
     display: inline-block;
 }
 
-.project-image-wrapper > img {
+.project-image-wrapper > a > img {
     max-width: 685px;
     max-height: 485px; 
     border-radius: .5em;

@@ -19,6 +19,7 @@ export default class Trippin extends Component {
                 />
                 <ProjectImage 
                 imagePassByComp={trippinAppImage}
+                hrefFromComp={'http://trippinonline.com/#/'}
                 altTextPassByComp={'Screenshot of Trippin Travel App'} />
             </div>
         )

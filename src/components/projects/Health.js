@@ -20,6 +20,7 @@ export default class Health extends Component {
                 />
                 <ProjectImage 
                 imagePassByComp={healthAppImage}
+                hrefFromComp={'http://randiwolsey.com/#/'}
                 altTextPassByComp={'Screenshot of Randi Wolsey\'s Website'} />
             </div>
         )

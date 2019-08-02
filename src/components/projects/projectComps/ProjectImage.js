@@ -5,7 +5,9 @@ export default class ProjectImage extends Component {
     render() {
         return (
             <div className='project-image-wrapper'>
-                <img src={this.props.imagePassByComp} alt={this.props.altTextPassByComp} />
+                <a href={this.props.hrefFromComp}>
+                    <img src={this.props.imagePassByComp} alt={this.props.altTextPassByComp} />
+                </a>
             </div>
         )
     }
