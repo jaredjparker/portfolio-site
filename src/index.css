@@ -26,6 +26,10 @@ html {
   padding: 2.5em;
 }
 
+.top-comp-space {
+  padding-top: 3.5em;
+}
+
 .jmp-pnt::before {
   content: "";
   display: block;

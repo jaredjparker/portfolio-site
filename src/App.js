@@ -13,7 +13,8 @@ function App() {
       <Jump appAnchorTagsArr={appAnchorStrings} />
       {componentsArr.map((item, key) => (
         <ContentCarrier 
-        key={key} 
+        compSectKey={key}
+        compSectClass={key === 0 ? 'jmp-pnt top-comp-space' : 'jmp-pnt'}
         compTitleID={item.type.name}
         compPassedInFromApp={item} />
       ))}

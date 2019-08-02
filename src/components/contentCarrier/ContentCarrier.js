@@ -4,7 +4,10 @@ import './ContentCarrier.css'
 export default class ContentCarrier extends Component {
     render() {
         return (
-            <div id={this.props.compTitleID} className={this.key == 0 ? 'jmp-pnt top-comp-space' : 'jmp-pnt'}>
+            <div 
+            id={this.props.compTitleID}
+            key={this.props.compSectKey}
+            className={this.props.compSectClass}>
                 {this.props.compPassedInFromApp}
             </div>
         )
