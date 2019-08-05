@@ -4,7 +4,8 @@ import './ContactText.css'
 export default class ContactText extends Component {
     render() {
         return (
-            <div>
+            <div className='contact-text-wrapper'>
+                <h1>Contact</h1>
                 <p>Thank you for checking out my Portfolio Site. Here a few ways to contact me.</p>
                 <ul>
                     <li>Check out more of my work on <a href='https://github.com/VIISilver'>Github</a></li>

@@ -5,7 +5,7 @@ export default class Impartner extends Component {
     render() {
         return (
             <div className='experience-basic'>
-                <h2>Impartner Software</h2>
+                <h2>Customer Support Specialist</h2>
                 <p>HTML/CSS Contractor</p>
                 <p>July 2018 - Current</p>
                 <ul>

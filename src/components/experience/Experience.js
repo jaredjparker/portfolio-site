@@ -9,9 +9,11 @@ export default class Experience extends Component {
         return (
             <div className='section-wrap'>
                 <h1>Experience</h1>
-                <Impartner />
-                <Contractor />
-                <Overview />
+                <div className='experience-wrap'>
+                    <Impartner />
+                    <Contractor />
+                    <Overview />
+                </div>
             </div>
         )
     }

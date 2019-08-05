@@ -6,7 +6,6 @@ export default class Contact extends Component {
     render() {
         return (
             <div className='contact-wrapper section-wrap'>
-                <h1>Contact</h1>
                 <ContactText />
             </div>
         )

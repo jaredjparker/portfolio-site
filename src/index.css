@@ -30,10 +30,6 @@ html {
   padding-top: 3.5em;
 }
 
-.section-wrap {
-  padding-left: 0.67em;
-}
-
 .experience-basic {
   max-width: 52em;
   background-color: #e8f1f2;
@@ -45,6 +41,10 @@ html {
 
 .experience-basic > h2 {
   margin-top: 0;
+}
+
+.section-wrap {
+  padding-left: 0.67em;
 }
 
 .section-wrap > h1 {
@@ -69,7 +69,8 @@ h2 {
 }
 
 p {
-  font-size: .85rem;
+  font-size: .95rem;
+  margin: 0;
 }
 
 li {
