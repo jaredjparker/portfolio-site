@@ -34,6 +34,19 @@ html {
   padding-left: 0.67em;
 }
 
+.experience-basic {
+  max-width: 52em;
+  background-color: #e8f1f2;
+  color: #13293d;
+  margin: 2em 0 2em 0;
+  padding: 2em;
+  border-radius: .5em;
+}
+
+.experience-basic > h2 {
+  margin-top: 0;
+}
+
 .section-wrap > h1 {
   margin-top: 0;
   padding-top: 0.67em;

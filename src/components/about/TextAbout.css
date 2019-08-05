@@ -5,9 +5,12 @@
 
 .about-text {
     background-color: #1b98e0;
-    height: 25em;
     width: 35em;
-    margin: 2em;
+    margin: 2em 0 2em 2em;
     padding: 2em;
     border-radius: .5em;
+}
+
+.about-text > h1 {
+    margin-top: 0;
 }
