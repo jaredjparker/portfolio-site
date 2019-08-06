@@ -53,6 +53,21 @@ html {
   padding-left: 3em;
 }
 
+.info-top {
+    height: 100%;
+    display: table;
+}
+
+.info-top > * {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.info-top > span {
+    font-size: .77rem;
+    padding: .25em 1.25em .25em .25em;
+}
+
 .jmp-pnt::before {
   content: "";
   display: block;

@@ -1,0 +1,6 @@
+.foot-wrap {
+    margin: 2em 0 2em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
