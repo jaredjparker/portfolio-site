@@ -1,5 +1,6 @@
 import React from 'react'
 import Jump from './components/jump/Jump'
+import Footer from './components/footer/Footer'
 import ContentCarrier from './components/contentCarrier/ContentCarrier'
 import componentsArr from './centralData/appComponents'
 import './App.css'
@@ -18,6 +19,7 @@ function App() {
         compTitleID={item.type.name}
         compPassedInFromApp={item} />
       ))}
+      <Footer />
     </div>
   );
 }
