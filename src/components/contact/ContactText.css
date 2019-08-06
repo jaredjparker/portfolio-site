@@ -1,3 +1,15 @@
 .contact-text-wrapper > h1, .contact-text-wrapper > p {
     text-align: center;
 }
+
+.contact-text-wrapper li {
+    list-style-position: inside;
+}
+
+.contact-text-wrapper ul {
+    padding-left: 9.5em;
+}
+
+.contact-text-wrapper a {
+    color: white;
+}
