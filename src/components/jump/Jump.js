@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Anchor from './Anchor'
+import MixBtn from '../mixer/MixBtn'
 import IconBtn from '../buttons/IconBtn'
 import LightLinkedIn from '../../assets/lght_linkedIn.png'
 import LightGitHub from '../../assets/lightGithub.png'
@@ -13,6 +14,7 @@ export default class Jump extends Component {
             <div className='jump-menu-wrapper'>
                 <div className='jump-menu-item'>
                     <Anchor jumpAnchorTagsArr={this.props.appAnchorTagsArr} />
+                    <MixBtn />
                     <div className='info-top'>
                         <span >jared.parker7890@gmail.com</span>
                         <span >(801) 205 4267</span>

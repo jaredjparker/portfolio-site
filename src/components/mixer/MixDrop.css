@@ -1,0 +1,32 @@
+.mixdrop-wrap {
+    position: absolute;
+    margin-top: 11.5em;
+    padding: 2em;
+    background-color: #1b98e0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3px;
+}
+
+.mixdrop-wrap p {
+    font-size: .87rem;
+    padding: .25em 1.25em .25em 1.25em;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fefefe;
+    color: #1b98e0;
+    border: none;
+    margin: 3px;
+}
+
+.mixdrop-wrap button {
+    font-size: .87rem;
+    padding: .25em 1.25em .25em 1.25em;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #13293d;
+    color: #fefefe;
+    border: none;
+    margin-top: 7px;
+}
