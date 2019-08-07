@@ -7,7 +7,7 @@ import './Experience.css'
 export default class Experience extends Component {
     render() {
         return (
-            <div className='section-wrap'>
+            <div className='section-wrap experience-header'>
                 <h1>Experience</h1>
                 <div className='experience-wrap'>
                     <Impartner />
