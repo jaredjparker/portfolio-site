@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import componentsArr from '../../centralData/appComponents'
 import './MixDrop.css'
 
 export default class MixDrop extends Component {
@@ -8,9 +7,10 @@ export default class MixDrop extends Component {
             <div 
             className='mixdrop-wrap'
             style={this.props.dropBool ? {display: 'block'} : {display: 'none'}}>
-                {componentsArr.map((item, key) => (
+                {this.props.compArrFromBtn.map((item, key) => (
                     <p
                     key={key}
+                    onClick={this.props.passMixDivFun}
                     >{item.type.name}</p>
                 ))}
                 <button 
