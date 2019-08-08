@@ -10,24 +10,42 @@ class App extends Component {
       super(props);
 
       this.state = {
-          compArrState: componentsArr
+          strCompArr: componentsArr.map(item => item.type.name),
+          dropArr: componentsArr,
+          compArrState: componentsArr,
+          mixedArr: []
       }
   }
 
-  handleClick = () => {
-    console.log(this)
+
+  handleClick = (e) => {
+    let strCompItemIndx = this.state.strCompArr.indexOf(e.target.innerText)
+    this.state.mixedArr.push(componentsArr[strCompItemIndx])
+
+    this.setState({compArrState: this.state.mixedArr})
+  }
+
+  resetClick = () => {
+    this.setState({
+      strCompArr: componentsArr.map(item => item.type.name),
+      dropArr: componentsArr,
+      compArrState: componentsArr,
+      mixedArr: []
+    })
   }
 
   render() {
 
-    const { compArrState } = this.state
+    const { compArrState, dropArr } = this.state
 
     return (
       <div className="app-container">
         <Jump 
-        compArrFromApp={compArrState}
+        compArrFromApp={dropArr}
         appAnchorTagsArr={compArrState}
-        appMixDivFun={this.handleClick} />
+        appMixDivFun={this.handleClick}
+        resetFromApp={this.resetClick}
+         />
         {compArrState.map((item, key) => (
           <ContentCarrier 
           compSectKey={key}

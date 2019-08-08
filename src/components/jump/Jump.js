@@ -13,11 +13,12 @@ export default class Jump extends Component {
         return (
             <div className='jump-menu-wrapper'>
                 <div className='jump-menu-item'>
-                    <Anchor jumpAnchorTagsArr={this.props.appAnchorTagsArr} />
                     <MixBtn
                     compArrFromJump={this.props.compArrFromApp}
                     mixDivFun={this.props.appMixDivFun}
+                    resetFromJump={this.props.resetFromApp}
                      />
+                    <Anchor jumpAnchorTagsArr={this.props.appAnchorTagsArr} />
                     <div className='info-top'>
                         <span >jared.parker7890@gmail.com</span>
                         <span >(801) 205 4267</span>

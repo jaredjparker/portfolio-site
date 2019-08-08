@@ -26,7 +26,7 @@ export default class MixBtn extends Component {
                 compArrFromBtn={this.props.compArrFromJump}
                 passMixDivFun={this.props.mixDivFun}
                 dropBool={this.state.dropDownActive}
-                dropActive={this.handleClick} />
+                resetFromBtn={this.props.resetFromJump} />
             </div>
         )
     }

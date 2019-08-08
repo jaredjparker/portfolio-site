@@ -14,8 +14,8 @@ export default class MixDrop extends Component {
                     >{item.type.name}</p>
                 ))}
                 <button 
-                onClick={this.props.dropActive}
-                >Done</button>
+                onClick={this.props.resetFromBtn}
+                >Reset</button>
             </div>
         )
     }
