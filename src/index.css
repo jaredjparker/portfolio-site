@@ -66,8 +66,8 @@ html {
 .jmp-pnt::before {
   content: "";
   display: block;
-  height: 3.5em; /* fixed header height*/
-  margin:-3.5em 0 0; /* negative fixed header height */
+  height: 3.4em; /* fixed header height*/
+  margin:-3.4em 0 0; /* negative fixed header height */
 }
 
 h1 {
