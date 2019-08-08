@@ -23,6 +23,7 @@ export default class MixBtn extends Component {
                 onClick={this.handleClick}
                 >Mix it!</button>
                 <MixDrop
+                closeFromBtn={this.handleClick}
                 compArrFromBtn={this.props.compArrFromJump}
                 passMixDivFun={this.props.mixDivFun}
                 dropBool={this.state.dropDownActive}

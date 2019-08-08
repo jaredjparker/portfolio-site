@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Close from '../buttons/Close'
 import './MixDrop.css'
 
 export default class MixDrop extends Component {
@@ -7,6 +8,9 @@ export default class MixDrop extends Component {
             <div 
             className='mixdrop-wrap'
             style={this.props.dropBool ? {display: 'block'} : {display: 'none'}}>
+                <Close
+                closeFromDrop={this.props.closeFromBtn}
+                 />
                 {this.props.compArrFromBtn.map((item, key) => (
                     <p
                     key={key}
