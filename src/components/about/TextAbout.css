@@ -14,3 +14,18 @@
 .about-text > h1 {
     margin-top: 0;
 }
+
+.bio-btn {
+    margin-top: 1em;
+    background-color: #1b98e0;
+    border: none;
+    border-radius: .2em;
+    cursor: pointer;
+    font-size: .90rem;
+    color: #E8F1F2;
+    padding: .4em;
+}
+
+.bio-btn:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+}
