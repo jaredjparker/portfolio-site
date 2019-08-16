@@ -14,3 +14,9 @@
     height: 100%;
     color: #fefefe;
 }
+
+@media screen and (max-width: 979px) {
+    .jump-menu-wrapper {
+        display: none;
+    }
+  }

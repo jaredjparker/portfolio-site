@@ -7,13 +7,11 @@ import './Experience.css'
 export default class Experience extends Component {
     render() {
         return (
-            <div className='section-wrap experience-header'>
+            <div className='section-wrap experience-wrap'>
                 <h1>Experience</h1>
-                <div className='experience-wrap'>
-                    <Impartner />
-                    <Contractor />
-                    <Overview />
-                </div>
+                <Impartner />
+                <Contractor />
+                {/* <Overview /> */}
             </div>
         )
     }

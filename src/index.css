@@ -86,3 +86,15 @@ p {
 li {
   font-size: .85rem;
 }
+
+@media screen and (max-width: 979px) {
+  .top-comp-space {
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .experience-basic {
+    max-width: 25em;
+  }
+}

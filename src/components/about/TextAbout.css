@@ -5,8 +5,8 @@
 
 .about-text {
     background-color: #1b98e0;
-    width: 35em;
-    margin: 2em 12em 2em 2em;
+    max-width: 35em;
+    margin: 2em 0 2em 8em;
     padding: 2em;
     border-radius: .5em;
 }
@@ -28,4 +28,32 @@
 
 .bio-btn:hover {
     background-color: rgba(0, 0, 0, 0.08);
+}
+
+@media screen and (min-width: 1160px) and (max-width:1262px) {
+    .about-text {
+        margin: 2em 0 2em 4em;
+    }
+}
+
+@media screen and (min-width: 1090px) and (max-width:1159px) {
+    .about-text {
+        margin: 2em 0 2em 2em;
+    }
+}
+
+@media screen and (max-width:1089px) {
+    .text-about-wrapper {
+        display: block;
+    }
+
+    .about-text {
+        margin: 1em 0 2em 0;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .about-text {
+        max-width: 25em;
+    }
 }

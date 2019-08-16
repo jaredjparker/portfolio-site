@@ -9,3 +9,15 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: .5em;
 }
+
+@media screen and (min-width: 840px) and (max-width:1089px) {
+    .project-image-wrapper > a > img {
+        max-width: 385px;
+    }
+}
+
+@media screen and (max-width: 979px) {
+    .project-image-wrapper > a > img {
+        display: none;
+    }
+}

@@ -7,3 +7,9 @@
     background-color: #f0f8ff;
     margin: .5em;
 }
+
+@media screen and (max-width: 840px) {
+    .project-txt-wrapper {
+        max-width: 25em;
+    }
+}
