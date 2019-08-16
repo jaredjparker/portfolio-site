@@ -1,6 +1,6 @@
 {
   "short_name": "Jared Parker | Web Developer",
-  "name": "Portfolio Site for the Web Developer Jared Parker",
+  "name": "Jared Parker's Portfolio Site",
   "icons": [
     {
       "src": "sevenSilver.ico",
@@ -11,5 +11,5 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#13293d"
 }
