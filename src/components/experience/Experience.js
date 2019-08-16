@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Overview from './Overview'
+// import Overview from './Overview'
 import Contractor from './Contractor'
 import Impartner from './Impartner'
 import './Experience.css'
