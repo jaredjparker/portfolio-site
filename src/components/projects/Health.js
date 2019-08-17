@@ -6,7 +6,7 @@ import healthAppImage from '../../assets/randi-project-image.PNG'
 
 export default class Health extends Component {
 
-    healthListItemArr = ['Built from create-react-app up.', 'Pieces can be moved around the board.', 'Player turns are maintained.', 'Pieces can be replaced without the player turn switching.']
+    healthListItemArr = ['Contact page uses Nodmailer.', 'Majority of the components utilize Material-UI.', 'Began with create-react-app.', 'Styling is optimized for modile view.']
 
     render() {
         return (
