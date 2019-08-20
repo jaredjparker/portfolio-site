@@ -9,9 +9,9 @@ export default class Anchor extends Component {
                 {this.props.jumpAnchorTagsArr.map((item, key) => (
                     <a 
                     key={key} 
-                    href={`#${item.type.name}`}
+                    href={`#${item[0]}`}
                     >
-                    {item.type.name}
+                    {item[0]}
                     </a>
                 ))}
             </div>

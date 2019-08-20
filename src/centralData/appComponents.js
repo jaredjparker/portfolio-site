@@ -5,6 +5,6 @@ import Projects from '../components/projects/Projects'
 import Experience from '../components/experience/Experience'
 import Contact from '../components/contact/Contact'
 
-const componentsArr = [<Home />, <About />, <Projects />, <Experience />, <Contact />]
+const componentsArr = [['Home', <Home />], ['About', <About />], ['Projects', <Projects />], ['Experience', <Experience />], ['Contact', <Contact />]]
 
 export default componentsArr

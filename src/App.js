@@ -10,7 +10,7 @@ class App extends Component {
       super(props);
 
       this.state = {
-          strCompArr: componentsArr.map(item => item.type.name),
+          strCompArr: componentsArr.map(item => item[0]),
           dropArr: componentsArr,
           compArrState: componentsArr,
           mixedArr: []
@@ -27,7 +27,7 @@ class App extends Component {
 
   resetClick = () => {
     this.setState({
-      strCompArr: componentsArr.map(item => item.type.name),
+      strCompArr: componentsArr.map(item => item[0]),
       dropArr: componentsArr,
       compArrState: componentsArr,
       mixedArr: []
@@ -50,8 +50,8 @@ class App extends Component {
           <ContentCarrier 
           compSectKey={key}
           compSectClass={key === 0 ? 'jmp-pnt top-comp-space' : 'jmp-pnt'}
-          compTitleID={item.type.name}
-          compPassedInFromApp={item} />
+          compTitleID={item[0]}
+          compPassedInFromApp={item[1]} />
         ))}
         <Footer />
       </div>
