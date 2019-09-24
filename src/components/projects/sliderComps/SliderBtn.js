@@ -4,7 +4,10 @@ import './SliderBtn.css'
 export default function SliderBtn(props) {
     return (
         <Fragment>
-            <button className='slide-btn'>{props.sliderBtnTxt}</button>
+            <button 
+            className='slide-btn'
+            onClick={props.slideBtnFunction}>
+            {props.sliderBtnTxt}</button>
         </Fragment>
     )
 }
