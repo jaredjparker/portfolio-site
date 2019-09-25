@@ -44,7 +44,8 @@ export default class ProjectSlider extends Component {
                     <CSSTransition
                     key={key}
                     in={key === this.state.inIndex}
-                    timeout={300}
+                    // timeout={{enter: 3400, exit: 0}}
+                    exit={false}
                     unmountOnExit
                     >
                         <Component />

@@ -11,9 +11,6 @@ export default class Projects extends Component {
             <div className='proj-comp-wrapper section-wrap'>
                 <h1>Projects</h1>
                 <ProjectSlider />
-                <Health />
-                <Chess />
-                <Trippin />
             </div>
         )
     }

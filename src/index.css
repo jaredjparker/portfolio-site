@@ -22,7 +22,8 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  max-width: 97em;
+  width: 70em;
+  height: 40em;
   padding: 2.5em;
 }
 
