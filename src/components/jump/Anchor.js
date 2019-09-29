@@ -6,12 +6,12 @@ export default class Anchor extends Component {
     render() {
         return (
             <div className='anchorDiv'>
-                {this.props.jumpAnchorTagsArr.map((item, key) => (
+                {this.props.jumpAnchorTagsArr.map(({ name }, key) => (
                     <a 
                     key={key} 
-                    href={`#${item[0]}`}
+                    href={`#${name}`}
                     >
-                    {item[0]}
+                    {name}
                     </a>
                 ))}
             </div>

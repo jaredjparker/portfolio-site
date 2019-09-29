@@ -40,17 +40,17 @@ export default class ProjectSlider extends Component {
                 sliderBtnTxt={'〈'}
                 slideBtnFunction={this.previousSlide}
                 />
-                {switchComponents.map(({ Component }, key) => (
-                    <CSSTransition
-                    key={key}
-                    in={key === this.state.inIndex}
-                    // timeout={{enter: 3400, exit: 0}}
-                    exit={false}
-                    unmountOnExit
-                    >
-                        <Component />
-                    </CSSTransition>
-                ))}
+                    {switchComponents.map(({ Component }, key) => (
+                        <CSSTransition
+                        key={key}
+                        in={key === this.state.inIndex}
+                        // timeout={{enter: 3400, exit: 0}}
+                        exit={false}
+                        unmountOnExit
+                        >
+                            <Component />
+                        </CSSTransition>
+                    ))}
                 <SliderBtn 
                 sliderBtnTxt={'〉'}
                 slideBtnFunction={this.nextSlide}

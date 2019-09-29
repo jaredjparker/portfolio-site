@@ -15,7 +15,7 @@ export default class MixDrop extends Component {
                     <p
                     key={key}
                     onClick={this.props.passMixDivFun}
-                    >{item[0]}</p>
+                    >{item}</p>
                 ))}
                 <button 
                 onClick={this.props.resetFromBtn}

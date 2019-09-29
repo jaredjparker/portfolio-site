@@ -10,8 +10,8 @@ class App extends Component {
       super(props);
 
       this.state = {
-          strCompArr: componentsArr.map(item => item[0]),
-          dropArr: componentsArr,
+          strCompArr: componentsArr.map(({ name }) => name),
+          dropArr: componentsArr.map(({ name }) => name),
           compArrState: componentsArr,
           mixedArr: []
       }
@@ -27,8 +27,8 @@ class App extends Component {
 
   resetClick = () => {
     this.setState({
-      strCompArr: componentsArr.map(item => item[0]),
-      dropArr: componentsArr,
+      strCompArr: componentsArr.map(({ name }) => name),
+      dropArr: componentsArr.map(({ name }) => name),
       compArrState: componentsArr,
       mixedArr: []
     })
@@ -46,12 +46,12 @@ class App extends Component {
         appMixDivFun={this.handleClick}
         resetFromApp={this.resetClick}
          />
-        {compArrState.map((item, key) => (
+        {compArrState.map(({ name, Component }, key) => (
           <ContentCarrier 
           compSectKey={key}
           compSectClass={key === 0 ? 'jmp-pnt top-comp-space' : 'jmp-pnt'}
-          compTitleID={item[0]}
-          compPassedInFromApp={item[1]} />
+          compTitleID={name}
+          compPassedInFromApp={Component} />
         ))}
         <Footer />
       </div>
