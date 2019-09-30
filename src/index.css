@@ -44,6 +44,10 @@ html {
   margin-top: 0;
 }
 
+.experience-basic ul li {
+  list-style-type: none;
+}
+
 .section-wrap > h1 {
   margin-top: 0;
   padding: 0.67em 3em 0 3em;
