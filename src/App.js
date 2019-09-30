@@ -48,7 +48,7 @@ class App extends Component {
          />
         {compArrState.map(({ name, Component }, key) => (
           <ContentCarrier 
-          compSectKey={key}
+          key={key}
           compSectClass={key === 0 ? 'jmp-pnt top-comp-space' : 'jmp-pnt'}
           compTitleID={name}
           compPassedInFromApp={Component} />

@@ -1,7 +1,4 @@
 import React, { Component } from 'react'
-import Chess from './Chess'
-import Health from './Health'
-import Trippin from './Trippin'
 import ProjectSlider from './sliderComps/ProjectSlider'
 import './Projects.css'
 
