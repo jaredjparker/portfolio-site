@@ -17,7 +17,7 @@ export default class Chess extends Component {
                 altTextPassByComp={'Screenshot of Chess CRA App'} />
                 <ProjectText 
                 projectTextH2={'Simple Chess'}
-                projectTextDescription={'Tech Used: React.js and that is it'}
+                projectTextDescription={'Tech Used: React.js'}
                 projectTextListItems={this.chessListItemArr}
                 compPassLinkToApp={'http://chess.logixexpert.com/#/'}
                 compPassTextToApp={'Go To Simple Chess!'}

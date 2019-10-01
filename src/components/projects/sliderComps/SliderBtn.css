@@ -4,6 +4,7 @@
     border: none;
     font-size: 2.5rem;
     color: #bbe1f7;
+    outline: none;
 }
 
 .slide-btn:hover {

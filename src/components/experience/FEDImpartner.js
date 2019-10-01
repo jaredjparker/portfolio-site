@@ -8,7 +8,7 @@ export default function FEDImpartner() {
             <p>Frontend Devleoper</p>
             <p>September 2019 - Current</p>
             <ul>
-                <li>Complete Frontend tasks needed for Customer Portals currently being implemented or existing portals requiring new frontend work. Using ASP.NET, Sass, and Knockout.js for the majority of tasks.</li>
+                <li>Complete Frontend work required for Customer Portals currently being implemented or existing portals requiring custom frontend work. Tech used: ASP.NET, Sass, and Knockout.js.</li>
             </ul>
         </div>
     )
