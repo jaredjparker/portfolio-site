@@ -1,0 +1,9 @@
+.proj-txt-mobile-wrap {
+    display: none;
+}
+
+@media screen and (max-width: 549px) {
+    .proj-txt-mobile-wrap {
+        display: block;
+    }
+}

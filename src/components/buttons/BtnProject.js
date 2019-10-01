@@ -1,12 +1,11 @@
-import React, { Component } from 'react'
+import React, { Fragment } from 'react'
 import './BtnProject.css'
 
-export default class BtnProject extends Component {
-    render() {
-        return (
-            <div>
-                <a href={this.props.linkToApp}><button className='to-project-btn'>{this.props.projectLinkBtnTxt}</button></a>
-            </div>
-        )
-    }
+export default function BtnProject(props) {
+    return (
+        <Fragment>
+            <a className='to-project-btn' href={props.linkToApp}><button>{props.projectLinkBtnTxt}</button></a>
+        </Fragment>
+    )
 }
+
