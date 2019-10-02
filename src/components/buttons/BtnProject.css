@@ -1,4 +1,9 @@
+.to-project-btn {
+    text-decoration: none;
+}
+
 .to-project-btn > button {
+    display: block;
     background-color: #1b98e0;
     color: #e8efe7;
     border: none;
