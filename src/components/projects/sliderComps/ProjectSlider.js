@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Health from '../Health'
 import Chess from '../Chess'
 import Trippin from '../Trippin'
+import TicTacToe from '../TicTacToe'
 import SliderBtn from './SliderBtn'
 import { CSSTransition } from 'react-transition-group'
 import './ProjectSlider.css'
@@ -9,7 +10,8 @@ import './ProjectSlider.css'
 let switchComponents = [
     { name: 'Health', Component: Health },
     { name: 'Chess', Component: Chess },
-    { name: 'Trippin', Component: Trippin }
+    { name: 'Trippin', Component: Trippin },
+    { name: 'TicTacToe', Component: TicTacToe }
 ]
 
 export default class ProjectSlider extends Component {
