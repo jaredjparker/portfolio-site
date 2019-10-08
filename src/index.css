@@ -115,3 +115,10 @@ li {
     width: 25em;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .section-wrap > h1 {
+    padding: 0.67em 0 0 0;
+  }
+
+}
