@@ -2,24 +2,24 @@ import React from 'react'
 import ProjectText from './projectComps/ProjectText'
 import ProjectImage from './projectComps/ProjectImage'
 import './TicTacToe.css'
-import chessImage from '../../assets/chess-project-image.PNG'
+import tictactoeImage from '../../assets/tictactoe-project-image.jpg'
 
 export default function TicTacToe() {
 
-    let chessListItemArr = ['Built from create-react-app up.', 'Pieces can be moved around the board.', 'Player turns are maintained.', 'Pieces can be replaced without the player turn switching.']
+    let tictactoeListItemArr = ['Built for a presentation.', 'Help users learn React.js.', 'Player turns are maintained.', 'Validates upon win or draw.', 'Illegal move cannot be made.']
 
     return (
         <div className='specific-project-wrapper'>
             <ProjectImage 
-            imagePassByComp={chessImage}
-            hrefFromComp={'http://chess.logixexpert.com/#/'}
-            altTextPassByComp={'Screenshot of Chess CRA App'} />
+            imagePassByComp={tictactoeImage}
+            hrefFromComp={'http://tictactoe.logixexpert.com/'}
+            altTextPassByComp={'Screenshot of Tic-Tac-Toe App'} />
             <ProjectText 
-            projectTextH2={'Simple Chess'}
+            projectTextH2={'Tic-Tac-Toe'}
             projectTextDescription={'Tech Used: React.js'}
-            projectTextListItems={chessListItemArr}
-            compPassLinkToApp={'http://chess.logixexpert.com/#/'}
-            compPassTextToApp={'Go To Simple Chess!'}
+            projectTextListItems={tictactoeListItemArr}
+            compPassLinkToApp={'http://tictactoe.logixexpert.com/'}
+            compPassTextToApp={'Play Tic-Tac-Toe!'}
             />
         </div>
     )
