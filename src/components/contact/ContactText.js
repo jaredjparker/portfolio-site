@@ -6,7 +6,7 @@ export default class ContactText extends Component {
         return (
             <div className='contact-text-wrapper'>
                 <h1>Contact</h1>
-                <p>Thank you for checking out my Portfolio Site. Here a few ways to contact me.</p>
+                <p>Thank you for checking out my Portfolio Site. Here a few ways to learn more about me.</p>
                 <ul>
                     <li>Check out more of my work on <a href='https://github.com/VIISilver'>Github</a></li>
                     <li>Take a look at my professional profile on <a href='https://www.linkedin.com/in/jared-jones-parker/'>LinkedIn</a></li>
