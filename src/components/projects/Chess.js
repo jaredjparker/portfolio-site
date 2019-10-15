@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import ProjectText from './projectComps/ProjectText'
 import ProjectImage from './projectComps/ProjectImage'
 import './Chess.css'
-import chessImage from '../../assets/chess-project-image.PNG'
+import chessImage from '../../assets/chess-project-image.jpg'
 
 export default class Chess extends Component {
 

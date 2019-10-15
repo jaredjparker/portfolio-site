@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import SquareProfessional from '../../assets/Square_Professional_Headshot.jpg'
+import SquareProfessional from '../../assets/square-professional-headshot.jpg'
 import './Portrait.css'
 
 export default class Portrait extends Component {

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import ProjectText from './projectComps/ProjectText'
 import ProjectImage from './projectComps/ProjectImage'
 import './Trippin.css'
-import trippinAppImage from '../../assets/trippinScreenShot.png'
+import trippinAppImage from '../../assets/trippin-screenshot.jpg'
 
 export default class Trippin extends Component {
 

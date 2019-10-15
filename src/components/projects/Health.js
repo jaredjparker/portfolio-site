@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import ProjectText from './projectComps/ProjectText'
 import ProjectImage from './projectComps/ProjectImage'
 import './Health.css'
-import healthAppImage from '../../assets/randi-project-image.PNG'
+import healthAppImage from '../../assets/randi-project-image.jpg'
 
 export default class Health extends Component {
 
