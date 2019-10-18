@@ -11,17 +11,17 @@ export default class Chess extends Component {
     render() {
         return (
             <div className='specific-project-wrapper'>
-                <ProjectImage 
-                imagePassByComp={chessImage}
-                hrefFromComp={'http://chess.logixexpert.com/#/'}
-                altTextPassByComp={'Screenshot of Chess CRA App'} />
                 <ProjectText 
                 projectTextH2={'Simple Chess'}
                 projectTextDescription={'Tech Used: React.js'}
                 projectTextListItems={this.chessListItemArr}
                 compPassLinkToApp={'http://chess.logixexpert.com/#/'}
                 compPassTextToApp={'Go To Simple Chess!'}
-                 />
+                />
+                <ProjectImage 
+                imagePassByComp={chessImage}
+                hrefFromComp={'http://chess.logixexpert.com/#/'}
+                altTextPassByComp={'Screenshot of Chess CRA App'} />
             </div>
         )
     }

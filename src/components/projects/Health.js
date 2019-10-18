@@ -11,6 +11,10 @@ export default class Health extends Component {
     render() {
         return (
             <div className='specific-project-wrapper'>
+                <ProjectImage 
+                imagePassByComp={healthAppImage}
+                hrefFromComp={'http://randiwolsey.com/#/'}
+                altTextPassByComp={'Screenshot of Randi Wolsey\'s Website'} />
                 <ProjectText
                 projectTextH2={'Randi Wolsey Health and Fitness Coach'}
                 projectTextDescription={'Tech Used: React.js, NodeMailer, and Material-UI'}
@@ -18,10 +22,6 @@ export default class Health extends Component {
                 compPassLinkToApp={'http://randiwolsey.com/#/'}
                 compPassTextToApp={'Check Out Randi\'s Website!'}
                 />
-                <ProjectImage 
-                imagePassByComp={healthAppImage}
-                hrefFromComp={'http://randiwolsey.com/#/'}
-                altTextPassByComp={'Screenshot of Randi Wolsey\'s Website'} />
             </div>
         )
     }

@@ -11,6 +11,10 @@ export default class Trippin extends Component {
     render() {
         return (
             <div className='specific-project-wrapper'>
+                <ProjectImage 
+                imagePassByComp={trippinAppImage}
+                hrefFromComp={'http://trippinonline.com/#/'}
+                altTextPassByComp={'Screenshot of Trippin Travel App'} />
                 <ProjectText 
                 projectTextH2={'Trippin\' Travel'}
                 projectTextDescription={'Tech Used: React.js, NodeJS, Material-UI, and Sass'}
@@ -18,10 +22,6 @@ export default class Trippin extends Component {
                 compPassLinkToApp={'http://trippinonline.com/#/'}
                 compPassTextToApp={'Visit the Trippin\' App!'}
                 />
-                <ProjectImage 
-                imagePassByComp={trippinAppImage}
-                hrefFromComp={'http://trippinonline.com/#/'}
-                altTextPassByComp={'Screenshot of Trippin Travel App'} />
             </div>
         )
     }

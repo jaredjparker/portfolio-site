@@ -10,10 +10,6 @@ export default function TicTacToe() {
 
     return (
         <div className='specific-project-wrapper'>
-            <ProjectImage 
-            imagePassByComp={tictactoeImage}
-            hrefFromComp={'http://tictactoe.logixexpert.com/'}
-            altTextPassByComp={'Screenshot of Tic-Tac-Toe App'} />
             <ProjectText 
             projectTextH2={'Tic-Tac-Toe'}
             projectTextDescription={'Tech Used: React.js'}
@@ -21,6 +17,10 @@ export default function TicTacToe() {
             compPassLinkToApp={'http://tictactoe.logixexpert.com/'}
             compPassTextToApp={'Play Tic-Tac-Toe!'}
             />
+            <ProjectImage 
+            imagePassByComp={tictactoeImage}
+            hrefFromComp={'http://tictactoe.logixexpert.com/'}
+            altTextPassByComp={'Screenshot of Tic-Tac-Toe App'} />
         </div>
     )
 }
