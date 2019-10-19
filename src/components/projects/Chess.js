@@ -21,7 +21,8 @@ export default class Chess extends Component {
                 <ProjectImage 
                 imagePassByComp={chessImage}
                 hrefFromComp={'http://chess.logixexpert.com/#/'}
-                altTextPassByComp={'Screenshot of Chess CRA App'} />
+                altTextPassByComp={'Screenshot of Chess CRA App'}
+                heightSetter={true} />
             </div>
         )
     }

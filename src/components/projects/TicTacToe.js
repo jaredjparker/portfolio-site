@@ -20,7 +20,8 @@ export default function TicTacToe() {
             <ProjectImage 
             imagePassByComp={tictactoeImage}
             hrefFromComp={'http://tictactoe.logixexpert.com/'}
-            altTextPassByComp={'Screenshot of Tic-Tac-Toe App'} />
+            altTextPassByComp={'Screenshot of Tic-Tac-Toe App'}
+            heightSetter={true} />
         </div>
     )
 }

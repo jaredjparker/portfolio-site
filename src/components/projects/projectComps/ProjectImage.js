@@ -6,7 +6,10 @@ export default class ProjectImage extends Component {
         return (
             <div className='project-image-wrapper'>
                 <a href={this.props.hrefFromComp}>
-                    <img src={this.props.imagePassByComp} alt={this.props.altTextPassByComp} />
+                    <img 
+                    src={this.props.imagePassByComp} 
+                    alt={this.props.altTextPassByComp}
+                    className={this.props.heightSetter ? 'landscape-project-img' : 'portrait-project-img'} />
                 </a>
             </div>
         )

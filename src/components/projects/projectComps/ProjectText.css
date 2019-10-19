@@ -1,9 +1,16 @@
 .project-txt-wrapper {
     display: inline-block;
+    height: 485px;
     max-width: 29em;
     border-radius: .5em;
     padding: 0 2.5em 0 2.5em;
     margin: .5em auto;
+}
+
+@media screen and (min-width: 840px) and (max-width:1089px) {
+    .project-txt-wrapper {
+        height: 385px;
+    }
 }
 
 @media screen and (max-width: 549px) {
