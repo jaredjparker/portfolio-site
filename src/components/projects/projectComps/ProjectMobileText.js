@@ -18,7 +18,7 @@ export default function ProjectMobileText() {
             projectTextH2={'Randi Wolsey Health and Fitness Coach'}
             projectTextDescription={'Tech Used: React.js, NodeMailer, and Material-UI'}
             projectTextListItems={healthListItemArr}
-            compPassLinkToApp={'http://randiwolsey.com/#/'}
+            compPassLinkToApp={'http://randiwolsey.logixexpert.com/#/'}
             compPassTextToApp={'Check Out Randi\'s Website!'}
             />
             <ProjectText 
