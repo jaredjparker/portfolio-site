@@ -14,12 +14,12 @@ export default function TicTacToe() {
             projectTextH2={'Tic-Tac-Toe'}
             projectTextDescription={'Tech Used: React.js'}
             projectTextListItems={tictactoeListItemArr}
-            compPassLinkToApp={'http://tictactoe.logixexpert.com/'}
+            compPassLinkToApp={'https://tictactoe.logixexpert.com/'}
             compPassTextToApp={'Play Tic-Tac-Toe'}
             />
             <ProjectImage 
             imagePassByComp={tictactoeImage}
-            hrefFromComp={'http://tictactoe.logixexpert.com/'}
+            hrefFromComp={'https://tictactoe.logixexpert.com/'}
             altTextPassByComp={'Screenshot of Tic-Tac-Toe App'}
             heightSetter={true} />
         </div>

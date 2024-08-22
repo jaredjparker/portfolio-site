@@ -18,28 +18,28 @@ export default function ProjectMobileText() {
             projectTextH2={'Randi Wolsey Health and Fitness Coach'}
             projectTextDescription={'Tech Used: React.js, NodeMailer, and Material-UI'}
             projectTextListItems={healthListItemArr}
-            compPassLinkToApp={'http://randiwolsey.logixexpert.com/#/'}
+            compPassLinkToApp={'https://randiwolsey.logixexpert.com/#/'}
             compPassTextToApp={'Check Out Randi\'s Website!'}
             />
             <ProjectText 
             projectTextH2={'Simple Chess'}
             projectTextDescription={'Tech Used: React.js'}
             projectTextListItems={chessListItemArr}
-            compPassLinkToApp={'http://chess.logixexpert.com/#/'}
+            compPassLinkToApp={'https://chess.logixexpert.com/#/'}
             compPassTextToApp={'Go To Simple Chess!'}
             />
             <ProjectText 
             projectTextH2={'Trippin\' Travel App'}
             projectTextDescription={'Tech Used: React.js, NodeJS, Material-UI, Sass, and Massive'}
             projectTextListItems={trippinListItemArr}
-            compPassLinkToApp={'http://trippinonline.com/#/'}
+            compPassLinkToApp={'https://trippinonline.com/#/'}
             compPassTextToApp={'Visit the Trippin\' App!'}
             />
             <ProjectText 
             projectTextH2={'Tic-Tac-Toe'}
             projectTextDescription={'Tech Used: React.js'}
             projectTextListItems={tictactoeListItemArr}
-            compPassLinkToApp={'http://tictactoe.logixexpert.com/'}
+            compPassLinkToApp={'https://tictactoe.logixexpert.com/'}
             compPassTextToApp={'Play Tic-Tac-Toe!'}
             />
         </div>

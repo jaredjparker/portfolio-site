@@ -15,12 +15,12 @@ export default class Chess extends Component {
                 projectTextH2={'Chess'}
                 projectTextDescription={'Tech Used: React.js'}
                 projectTextListItems={this.chessListItemArr}
-                compPassLinkToApp={'http://chess.logixexpert.com/#/'}
+                compPassLinkToApp={'https://chess.logixexpert.com/#/'}
                 compPassTextToApp={'Go To Chess'}
                 />
                 <ProjectImage 
                 imagePassByComp={chessImage}
-                hrefFromComp={'http://chess.logixexpert.com/#/'}
+                hrefFromComp={'https://chess.logixexpert.com/#/'}
                 altTextPassByComp={'Screenshot of Chess CRA App'}
                 heightSetter={true} />
             </div>

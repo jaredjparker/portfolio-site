@@ -13,13 +13,13 @@ export default class Trippin extends Component {
             <div className='specific-project-wrapper'>
                 <ProjectImage 
                 imagePassByComp={trippinAppImage}
-                hrefFromComp={'http://trippinonline.com/#/'}
+                hrefFromComp={'https://trippinonline.com/#/'}
                 altTextPassByComp={'Screenshot of Trippin Travel App'} />
                 <ProjectText 
                 projectTextH2={'Trippin\' Travel'}
                 projectTextDescription={'Tech Used: React.js, NodeJS, Material-UI, and Sass'}
                 projectTextListItems={this.trippinListItemArr}
-                compPassLinkToApp={'http://trippinonline.com/#/'}
+                compPassLinkToApp={'https://trippinonline.com/#/'}
                 compPassTextToApp={'Visit the Trippin\' App!'}
                 />
             </div>

@@ -13,13 +13,13 @@ export default class Health extends Component {
             <div className='specific-project-wrapper'>
                 <ProjectImage 
                 imagePassByComp={healthAppImage}
-                hrefFromComp={'http://randiwolsey.logixexpert.com/#/'}
+                hrefFromComp={'https://randiwolsey.logixexpert.com/#/'}
                 altTextPassByComp={'Screenshot of Randi Wolsey\'s Website'} />
                 <ProjectText
                 projectTextH2={'Randi Wolsey Health and Fitness Coach'}
                 projectTextDescription={'Tech Used: React.js, NodeMailer, and Material-UI'}
                 projectTextListItems={this.healthListItemArr}
-                compPassLinkToApp={'http://randiwolsey.logixexpert.com/#/'}
+                compPassLinkToApp={'https://randiwolsey.logixexpert.com/#/'}
                 compPassTextToApp={'Go to Randi\'s Website'}
                 />
             </div>
