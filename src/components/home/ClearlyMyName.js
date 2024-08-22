@@ -6,6 +6,7 @@ export default class ClearlyMyName extends Component {
         return (
             <div className='clearly-wrapper'>
                 <h1>Jared Parker</h1>
+                <h2>Software Engineer</h2>
             </div>
         )
     }

@@ -1,3 +1,10 @@
 .clearly-wrapper {
     text-align: center;
+    padding: 1.3rem;
+    color: #000;
+    background-color: #FFF;
+}
+
+h1 {
+    margin-top: 0;
 }

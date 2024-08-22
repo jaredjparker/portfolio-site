@@ -4,9 +4,9 @@ import './ProjectMobileText.css'
 
 export default function ProjectMobileText() {
 
-    let healthListItemArr = ['Contact page uses Nodmailer.', 'Majority of the components utilize Material-UI.', 'Began with create-react-app.', 'Styling is optimized for modile view.']
+    let healthListItemArr = ['Contact page uses Nodmailer.', 'Majority of the components utilize Material-UI.', 'Styling is optimized for modile view.']
     
-    let chessListItemArr = ['Built from create-react-app up.', 'Pieces can be moved around the board.', 'Player turns are maintained.', 'Pieces can be replaced without the player turn switching.']
+    let chessListItemArr = ['Pieces can be moved around the board.', 'Player turns are maintained.', 'Pieces can be replaced without the player turn switching.']
     
     let trippinListItemArr = ['This application was built to make travel information easier to enter, organize, and access.', 'Worked on a team of 4 members to develop this application.', 'Personally worked on the database schema, backend logic, and some frontend development', 'Travefy.com is a good website to compare to this application.']
 

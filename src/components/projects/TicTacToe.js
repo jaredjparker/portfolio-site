@@ -15,7 +15,7 @@ export default function TicTacToe() {
             projectTextDescription={'Tech Used: React.js'}
             projectTextListItems={tictactoeListItemArr}
             compPassLinkToApp={'http://tictactoe.logixexpert.com/'}
-            compPassTextToApp={'Play Tic-Tac-Toe!'}
+            compPassTextToApp={'Play Tic-Tac-Toe'}
             />
             <ProjectImage 
             imagePassByComp={tictactoeImage}

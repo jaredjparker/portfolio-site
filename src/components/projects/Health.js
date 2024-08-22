@@ -6,7 +6,7 @@ import healthAppImage from '../../assets/randi-project-image.jpg'
 
 export default class Health extends Component {
 
-    healthListItemArr = ['Contact page uses Nodmailer.', 'Majority of the components utilize Material-UI.', 'Began with create-react-app.', 'Styling is optimized for modile view.']
+    healthListItemArr = ['Contact page uses Nodmailer.', 'Majority of the components utilize Material-UI.', 'Styling is optimized for modile view.']
 
     render() {
         return (
@@ -20,7 +20,7 @@ export default class Health extends Component {
                 projectTextDescription={'Tech Used: React.js, NodeMailer, and Material-UI'}
                 projectTextListItems={this.healthListItemArr}
                 compPassLinkToApp={'http://randiwolsey.com/#/'}
-                compPassTextToApp={'Check Out Randi\'s Website!'}
+                compPassTextToApp={'Go to Randi\'s Website'}
                 />
             </div>
         )

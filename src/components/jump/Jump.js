@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Anchor from './Anchor'
-import MixBtn from '../mixer/MixBtn'
 import IconBtn from '../buttons/IconBtn'
 import LightLinkedIn from '../../assets/lght_linkedIn.png'
 import LightGitHub from '../../assets/lightGithub.png'
